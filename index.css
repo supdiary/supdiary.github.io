@@ -1,16 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-body,html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #111;
+body {
+    padding:0px;
+    margin:0px;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1491956175078-460aea0914ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1550&q=80") center center;
+    background-size:cover;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
     font-family: 'Josefin Sans', sans-serif;
-    color: #f8f8f8;
 }
 #loading {
     width: 100vw;
@@ -45,7 +41,7 @@ body,html {
 }
 #box div {
     width:16.66vw;
-	height:100%;
+    height:100%;
     display:inline-block;
 }
 .box1 {
